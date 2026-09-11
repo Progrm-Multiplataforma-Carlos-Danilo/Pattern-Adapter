@@ -1,0 +1,26 @@
+{
+    "name": "carloseduardoblackx/adapter-pattern-ebook",
+    "description": "Structural Adapter Design Pattern - Book/EBook example (based on DesignPatternsPHP)",
+    "license": ["MIT"],
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\Structural\\Adapter\\": "Structural/Adapter/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DesignPatterns\\Structural\\Adapter\\Tests\\": "Structural/Adapter/Tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
+    }
+}
