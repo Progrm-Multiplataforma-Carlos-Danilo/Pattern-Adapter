@@ -145,6 +145,9 @@ composer install
 composer test
 # ou diretamente:
 vendor/bin/phpunit
+
+Para testar as classes:
+php teste.php
 ```
 
 ## Estrutura final do projeto
